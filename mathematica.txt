@@ -1,0 +1,57 @@
+Mathematica
+
+Unset[x] eller x=. %Ta bort data från x.
+
+x/.{x->2} %Substitute x to 2. When only 1 variable x/.x->2 is also ok.
+
+Sin[pi]  =  pi//Sin
+x+y+z // Sqrt
+
+N[x]  = numerical
+
+x=RandomInteger[100]
+x:=RandomInteger[100]
+
+z := (i+=1)
+i=1;
+z
+z
+z
+
+Expand[(x+y)^2]
+Sin[(x+y)^2]Cos[(x+y)^3]//ExpandAll
+
+: delayed substitution
+Sin[(x+y)^2]+Cos[(x+y)^4] /. Sin[p_]:->Sin[Expand[p]]
+
+list = {1,a,Cos[x+y], "hej"}
+
+list2 = Table[]
+list = Table[(1 + i)^2, {i, 1, 5, 0.5}]
+list = Table[(x)^2, {x, 0, 100, 5}]
+
+A = {{a,b,c},{d,e,f}}
+A//Matrixform
+A[1,2]
+A[1,1;;2]  = kolumn 1 till 2. (som : i matlab)
+Inverse[A]
+Det[A]
+EigenValues[A]
+Exp[A] %Elementvis
+MatrixExp[A]
+
+Plot{Exp[x],{x,-2pi,2pi}]
+LogLinearPlot["grej"]
+ListPlot
+ParametricPlot[{Cos[theta],Sin[Theta],{theta,0,2pi}]
+theta = [esc]theta[esc] eller [esc]theta[enter}
+PolarPlot[1-Sin[0.5theta],{theta, 0Degree, 360Degree}]
+Plot3D[Exp[-x^2-y^2],{x,-3,3},{y,-3,3},PlotRange->Full]
+ContourPlot[samma argument, Contours->20] %sätter antal contourlines
+
+f[x_,y_,z_] := x^2-y^2+z^2
+ContourPlot3d[f[x,y,z] = 0, {x,-2,2}, {y,-2,2},{z,-2,2}, PlotRange->{Full,Full,Full}]
+
+Ta bort allt: ctrl+a, del.
+Cleara memory: evaluation - quit kernel - local.
+
