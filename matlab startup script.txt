@@ -1,0 +1,12 @@
+matlab startup script:
+
+(clear, clc, clf, close all)??
+
+
+set(groot, 'defaultTextInterpreter', 'latex');
+set(groot, 'defaultLegendInterpreter', 'latex');
+set(groot, 'defaultAxesTickLabelInterpreter', 'latex');
+
+set(groot, 'defaultTextFontSize', 14);
+set(groot, 'defaultLegendFontSize', 14);
+set(groot, 'defaultAxesFontSize', 12);

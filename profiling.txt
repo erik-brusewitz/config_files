@@ -1,0 +1,2 @@
+perf record -e cpu-cycles ./name -flag1 -flag2; perf report
+hyperfine "./name -flag1 -flag2"

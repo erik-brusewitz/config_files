@@ -1,0 +1,7 @@
+makefiles måste ha tab characters, multiple spaces är inte tillåtna. Borde fixa så det görs automatiskt i .nanorc
+
+python: om man skriver "v = u" där u och v är vektorer så har de samma minnesadress.
+
+tmux -S /tmp/tmuxsocket013 attach
+
+
